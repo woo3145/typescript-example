@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "name": "typescript-practice",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woo3145/typescript-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woo3145/typescript-example/issues"
+  },
+  "homepage": "https://github.com/woo3145/typescript-example#readme",
+  "scripts": {
+    "e-1": "tsc && node ./dist/index.js"
+  }
+}
