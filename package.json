@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/woo3145/typescript-example#readme",
   "scripts": {
-    "e-1": "tsc && node ./dist/index.js"
+    "e-1": "tsc && node ./dist/1_basics.js"
   }
 }
