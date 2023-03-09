@@ -75,7 +75,8 @@ enum Direction2 {
   Left = 'Left',
   Right = 'Right',
 }
-// Direction1.Up === Direction2.Up; 아래 애러발생
+// @ts-expect-error
+Direction1.Up === Direction2.Up; // 아래 애러발생
 // This comparison appears to be unintentional because the types 'Direction1' and 'Direction2' have no overlap.ts(2367)
 
 const DirectionEnumMap = {
